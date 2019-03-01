@@ -1,48 +1,30 @@
-# j-parse
+# jarse
 
-[![Build Status](https://travis-ci.org/George-Aidonidis/j-parse.svg?branch=master)](https://travis-ci.org/George-Aidonidis/j-parse) [![codecov](https://codecov.io/gh/George-Aidonidis/j-parse/badge.svg?branch=master)](https://codecov.io/gh/George-Aidonidis/j-parse?branch=master) [![NPM version](https://img.shields.io/npm/v/j-parse.svg?style=flat)](https://www.npmjs.com/package/j-parse)
+[![Build Status](https://travis-ci.org/George-Aidonidis/jarse.svg?branch=master)](https://travis-ci.org/George-Aidonidis/jarse) [![codecov](https://codecov.io/gh/George-Aidonidis/jarse/badge.svg?branch=master)](https://codecov.io/gh/George-Aidonidis/jarse?branch=master) [![NPM version](https://img.shields.io/npm/v/jarse.svg?style=flat)](https://www.npmjs.com/package/jarse)
 
 > Parse json without the errors
 
 ## Install
 
 ```
-$ yarn install j-parse
+$ yarn install jarse
 ```
 
 ## Usage
 
 ```js
-const jParse = require('j-parse');
+const jParse = require('jarse');
+const json = `
+	{"data": ["value", {"key": "name", "value": "John Doe"}]}
+`;
 
-jParse('monkeys');
-//=> 'monkeys & raccoons'
+jParse(json);
+//=> { data: [ 'value', { key: 'name', value: 'John Doe' } ] }
 ```
-
-## API
-
-### jParse(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `Object`
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
 
 ## Contributing
 
-1. Fork it (<https://github.com/George-Aidonidis/j-parse/fork>)
+1. Fork it (<https://github.com/George-Aidonidis/jarse/fork>)
 2. Create your feature branch (git checkout -b feature/fooBar)
 3. Commit your changes (git commit -am 'Add some fooBar')
 4. Push to the branch (git push origin feature/fooBar)

@@ -1,13 +1,13 @@
 {
-	"name": "j-parse",
+	"name": "jarse",
 	"version": "1.0.1",
 	"description": "Parse json without the errors",
 	"license": "MIT",
-	"repository": "George-Aidonidis/j-parse",
+	"repository": "George-Aidonidis/jarse",
 	"author": {
 		"name": "George Aidonidis",
 		"email": "george.aidonidis@gmail.com",
-		"url": "georgeaidonidis.com"
+		"url": "https://georgeaidonidis.com"
 	},
 	"engines": {
 		"node": ">=6"
