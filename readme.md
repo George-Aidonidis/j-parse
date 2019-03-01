@@ -7,7 +7,7 @@
 ## Install
 
 ```
-$ yarn install jarse
+$ yarn add jarse
 ```
 
 ## Usage
