@@ -1,6 +1,6 @@
 {
 	"name": "j-parse",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Parse json without the errors",
 	"license": "MIT",
 	"repository": "George-Aidonidis/j-parse",
@@ -26,11 +26,11 @@
 		"json-parse"
 	],
 	"devDependencies": {
+		"codecov": "^3.2.0",
 		"husky": "^1.3.1",
-		"lint-staged": "^8.1.4",
-		"xo": "^0.24.0",
 		"jest": "^24",
-		"codecov": "^3.2.0"
+		"lint-staged": "^8.1.4",
+		"xo": "^0.24.0"
 	},
 	"jest": {
 		"coverageDirectory": "./coverage/",
