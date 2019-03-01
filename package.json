@@ -1,0 +1,62 @@
+{
+	"name": "j-parse",
+	"version": "0.0.0",
+	"description": "Parse json without the errors",
+	"license": "MIT",
+	"repository": "George-Aidonidis/j-parse",
+	"author": {
+		"name": "George Aidonidis",
+		"email": "george.aidonidis@gmail.com",
+		"url": "georgeaidonidis.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"lint": "xo",
+		"test": "jest",
+		"codecov": "codecov"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"json",
+		"parse",
+		"json-parse"
+	],
+	"devDependencies": {
+		"husky": "^1.3.1",
+		"lint-staged": "^8.1.4",
+		"xo": "^0.24.0",
+		"jest": "^24",
+		"codecov": "^3.2.0"
+	},
+	"jest": {
+		"coverageDirectory": "./coverage/",
+		"collectCoverage": true
+	},
+	"lint-staged": {
+		"*": [
+			"xo --fix",
+			"git add"
+		]
+	},
+	"xo": {
+		"prettier": true,
+		"envs": [
+			"jest",
+			"node",
+			"browser"
+		],
+		"rules": {
+			"camelcase": 1
+		}
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged",
+			"pre-push": "yarn test"
+		}
+	}
+}
