@@ -1,4 +1,6 @@
-# j-parse [![Build Status](https://travis-ci.org/George-Aidonidis/j-parse.svg?branch=master)](https://travis-ci.org/George-Aidonidis/j-parse)  [![codecov](https://codecov.io/gh/George-Aidonidis/j-parse/badge.svg?branch=master)](https://codecov.io/gh/George-Aidonidis/j-parse?branch=master) [![NPM version](https://img.shields.io/npm/v/j-parse.svg?style=flat)](https://www.npmjs.com/package/j-parse)
+# j-parse
+
+[![Build Status](https://travis-ci.org/George-Aidonidis/j-parse.svg?branch=master)](https://travis-ci.org/George-Aidonidis/j-parse) [![codecov](https://codecov.io/gh/George-Aidonidis/j-parse/badge.svg?branch=master)](https://codecov.io/gh/George-Aidonidis/j-parse?branch=master) [![NPM version](https://img.shields.io/npm/v/j-parse.svg?style=flat)](https://www.npmjs.com/package/j-parse)
 
 > Parse json without the errors
 
