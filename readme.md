@@ -1,6 +1,6 @@
 # jarse
 
-[![Build Status](https://travis-ci.org/george-aidonidis/jarse.svg?branch=master)](https://travis-ci.org/george-aidonidis/jarse) [![codecov](https://codecov.io/gh/george-aidonidis/jarse/badge.svg?branch=master)](https://codecov.io/gh/george-aidonidis/jarse?branch=master) [![NPM version](https://img.shields.io/npm/v/jarse.svg?style=flat)](https://www.npmjs.com/package/jarse)
+[![CircleCI](https://circleci.com/gh/george-aidonidis/jarse/tree/master.svg?style=svg)](https://circleci.com/gh/george-aidonidis/jarse/tree/master) [![codecov](https://codecov.io/gh/george-aidonidis/jarse/badge.svg?branch=master)](https://codecov.io/gh/george-aidonidis/jarse?branch=master) [![NPM version](https://img.shields.io/npm/v/jarse.svg?style=flat)](https://www.npmjs.com/package/jarse)
 
 > Parse json without the errors
 
