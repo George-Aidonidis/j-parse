@@ -29,7 +29,7 @@
 		"codecov": "^3.2.0",
 		"husky": "^3.0.1",
 		"jest": "^24",
-		"lint-staged": "^8.1.4",
+		"lint-staged": "^9.2.1",
 		"xo": "^0.24.0"
 	},
 	"jest": {
