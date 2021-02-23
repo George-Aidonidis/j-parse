@@ -27,7 +27,7 @@
 	],
 	"devDependencies": {
 		"codecov": "^3.2.0",
-		"husky": "^4.0.0",
+		"husky": "^5.1.1",
 		"jest": "^26",
 		"lint-staged": "^10.0.7",
 		"xo": "^0.33.0"
